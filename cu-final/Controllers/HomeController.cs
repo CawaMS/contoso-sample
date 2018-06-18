@@ -41,6 +41,7 @@ namespace ContosoUniversity.Controllers
                         + "GROUP BY EnrollmentDate";
                     command.CommandText = query;
                     DbDataReader reader = await command.ExecuteReaderAsync();
+                    //DbDataReader reader = command.ExecuteReader();
 
                     if (reader.HasRows)
                     {
