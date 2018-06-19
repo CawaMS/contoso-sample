@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA66xZuIGJgEug2be3apluuAAAAAACAAAAAAADZgAAwAAAABAAAADDN0sOK7TPC+gcXXXTymgLAAAAAASAAACgAAAAEAAAAOYz8n+PVww8sk5GDRBFf5WAAAAABrUCG5iKXrdA4Bb8GKjl+npuI+eqIKocFI5j100838q1vkfVp5jjLm123Y+btPBeA/Tffs2ZKG1YIal7HAvmpnl7NKN5Dhdun32IF0Akdd/8gzRgfFX2fenPMnefowsY9DhR4Xd9yCOkVR96BBEPhFvV0vNBJmuvjVHKt8Y9IggUAAAA1I9YMTvFV/0iWhfOpVTT5INYqQU=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ContosoUniversity.Data.SchoolContext">
+      <Value>Data Source=tcp:contosouniversity20180618094914dbserver.database.windows.net,1433;Initial Catalog=ContosoUniversity20180618094914_db;User Id=dbuser@contosouniversity20180618094914dbserver;Password=test.123</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

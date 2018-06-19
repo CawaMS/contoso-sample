@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\cawa\Documents\Azure Diagnostics\contoso-sample\cu-final\obj\Release\netcoreapp2.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\cawa\Documents\Azure Diagnostics\contoso-sample\cu-final\obj\Release\netcoreapp2.0\PubTmp\EFSQLScripts\ContosoUniversity.Data.SchoolContext.sql" />
+</sitemanifest>

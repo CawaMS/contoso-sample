@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ContosoUniversity20180618094914" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\cawa\\Documents\\Azure\ Diagnostics\\contoso-sample\\cu-final\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="ContosoUniversity.Data.SchoolContext" description="" value="Data Source=tcp:contosouniversity20180618094914dbserver.database.windows.net,1433;Initial Catalog=ContosoUniversity20180618094914_db;User Id=dbuser@contosouniversity20180618094914dbserver;Password=test.123" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\cawa\\Documents\\Azure\ Diagnostics\\contoso-sample\\cu-final\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\ContosoUniversity\.Data\.SchoolContext\.sql$" />
+  </parameter>
+</parameters>

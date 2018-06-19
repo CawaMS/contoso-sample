@@ -32,13 +32,13 @@ namespace ContosoUniversity.Controllers
                   .OrderBy(i => i.LastName)
                   .ToListAsync();
 
-            if (id != null)
-            {
+            //if (id != null)
+            //{
                 ViewData["InstructorID"] = id.Value;
                 Instructor instructor = viewModel.Instructors.Where(
                     i => i.ID == id.Value).Single();
                 viewModel.Courses = instructor.CourseAssignments.Select(s => s.Course);
-            }
+            //}
 
             if (courseID != null)
             {
